@@ -1,0 +1,5 @@
+28022018
+1. Get through the oandapy trading tutorial https://www.oreilly.com/learning/algorithmic-trading-in-less-than-100-lines-of-python-code
+2. Research how large is the data for 1 currency pair (most granular).
+3. If the size is reasonable, export the data to csv, else consult with Hop.
+4. Create a function obtainData(data, startDate, endDate, granularity) which from the data select only these in interval <startDate, endDate> with selected granularity (the structure of the granularity argument is up to you (e.g. "m"/"s", "d", "m" + number) - it should be as general as possible) 
